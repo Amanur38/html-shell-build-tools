@@ -1,0 +1,4 @@
+node_modules
+sass/artifact.scss
+yarn.lock
+package-lock.json

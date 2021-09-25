@@ -1,0 +1,23 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "gulp serve",
+    "watch": "nodemon index.js",
+    "start": "concurrently npm:watch npm:serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.4",
+    "chokidar": "^3.5.2",
+    "gulp": "^4.0.2",
+    "sass": "^1.41.1"
+  },
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "fs": "0.0.1-security"
+  }
+}
